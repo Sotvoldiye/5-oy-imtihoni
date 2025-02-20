@@ -9,6 +9,7 @@ body {
     background-color: #1C1C1C;
     color: #fff;
     font-family: 'Montserrat', sans-serif;
+    /* position: absolute; */
 }
 
 a {
@@ -376,8 +377,8 @@ button:active {
 
 /* thrid section start */
 
-.trid-section-01{
-    background-color:rgba(39, 39, 39, 1);
+.trid-section-01 {
+    background-color: rgba(39, 39, 39, 1);
     width: 100%;
     height: 100%;
     padding-top: 100px;
@@ -392,12 +393,12 @@ button:active {
     background-color: rgba(28, 28, 28, 1);
     border-radius: 20px;
     margin-bottom: 100px;
-    
+
 }
 
 .thrid-card {
     display: flex;
-   
+
 }
 
 .thrid-title {
@@ -866,11 +867,11 @@ li a:hover {
     border-radius: 50%
 }
 
-.default{
+.default {
     margin-left: auto;
     padding: 19px;
-    background-color:#299764;
-    border-radius:50%;
+    background-color: #299764;
+    border-radius: 50%;
 }
 
 /* footer end */
@@ -879,47 +880,162 @@ li a:hover {
 .light-mode {
     background-color: rgb(255, 255, 255);
     color: #000000;
-    button{
+
+    button {
         color: #ffffff;
-        border:none;
+        border: none;
         background-color: rgba(41, 151, 100, 1);
     }
-    
-    a{
+
+    a {
         color: #000;
     }
-    .first-title{
+
+    .first-title {
         color: #fff;
     }
-    .card{
+
+    .card {
         background-color: #F5F5F5;
     }
-    .title-car-sort{
+
+    .title-car-sort {
         color: #555555;
     }
-    .default-button{
-        color:#000;
-        background-color:#fff;
-        border:1.5px solid rgba(229, 231, 234, 1);
+
+    .default-button {
+        color: #000;
+        background-color: #fff;
+        border: 1.5px solid rgba(229, 231, 234, 1);
     }
-    .divider{
+
+    .divider {
         border: 1px solid rgba(229, 231, 234, 1);
     }
-    .trid-section-01{
-        background-color:rgba(245, 245, 245, 1);
+
+    .trid-section-01 {
+        background-color: rgba(245, 245, 245, 1);
     }
-    .thrid-section{
-        background-color:#fff;
+
+    .thrid-section {
+        background-color: #fff;
     }
-    .thrid-cards{
-        background-color:#fff;
+
+    .thrid-cards {
+        background-color: #fff;
     }
-    .thrid_card_title button{
-        background-color:#fff;
+
+    .thrid_card_title button {
+        background-color: #fff;
     }
-    .cards-five-item{
-        background-color: rgba(245, 245, 245, 1);  
-    } .sixs-card{
-        background-color:rgba(245, 245, 245, 1);
+
+    .cards-five-item {
+        background-color: rgba(245, 245, 245, 1);
     }
+
+    .sixs-card {
+        background-color: rgba(245, 245, 245, 1);
+    }
+}
+
+.modal-overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    display: none;
+}
+
+
+.great-modal {
+    background-color: #fff;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    padding: 30px;
+    width: 400px;
+    
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.gerat-header {
+    display: flex;
+    align-items: center;
+}
+
+.great-title {
+    text-align: center;
+}
+
+.great-title1 {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43.88px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 0;
+}
+
+.close-btn {
+    margin-bottom: auto;
+    padding: 25px;
+    border-radius: 50%
+}
+
+.modal-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.email,
+.password {
+    width: 100%;
+   padding-top: 18px;
+   padding-bottom: 18px;
+   padding-left: 10px;
+    border: 1.5px solid rgba(229, 231, 234, 1);
+    border-radius: 89px;
+    margin-right: 50px;
+}
+
+form p {
+    margin-left: auto;
+    margin-top: 0;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17.07px;
+    letter-spacing: 0%;
+    text-align: right;
+    margin-bottom: 26px;
+}
+
+.create-A {}
+
+.createLogin {
+    width: 100%;
+    padding: 18px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    gap: 8px;
+}
+
+
+.close-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.close-btn img {
+    width: 12px;
+    height: 12px;
 }
