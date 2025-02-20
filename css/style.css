@@ -82,6 +82,7 @@ nav {
 
 button {
     border: none;
+    cursor: pointer;
 }
 
 .dark-mode {
@@ -235,6 +236,12 @@ input {
 }
 
 .input-img {
+    padding: 17px;
+    background-color: #299764;
+    border-radius: 50%;
+}
+
+.input-img:hover{
     padding: 17px;
     background-color: #299764;
     border-radius: 50%;

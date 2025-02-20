@@ -32,14 +32,14 @@ close_btn.addEventListener("click", () => {
   modal_overlay.style.display = "none";
 });
 
-modal_overlay.addEventListener("click", () => {
+createLogin.addEventListener("click", () => {
   modal_overlay.style.display = "none";
 });
 
  
-const links__link = document.querySelector('modal2')
-const modal2 = document.querySelector('.modal2')
+// const links__link = document.querySelector('modal2')
+// const modal2 = document.querySelector('.modal2')
 
-links__link.addEventListener('click', ()=>{
-    modal2.style.display = 'flex'
-})
+// links__link.addEventListener('click', ()=>{
+//     modal2.style.display = 'flex'
+// })
