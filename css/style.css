@@ -219,6 +219,8 @@ form {
     position: relative;
     padding: 4px 4px 4px 30px;
     border-radius: 100px;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.15);
+
 }
 
 input {
@@ -374,17 +376,28 @@ button:active {
 
 /* thrid section start */
 
-.thrid-section {
+.trid-section-01{
+    background-color:rgba(39, 39, 39, 1);
     width: 100%;
     height: 100%;
-    background-color: #272727;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.thrid-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    background-color: rgba(28, 28, 28, 1);
     border-radius: 20px;
     margin-bottom: 100px;
+    
 }
 
 .thrid-card {
     display: flex;
-    height: 100%;
+   
 }
 
 .thrid-title {
@@ -675,17 +688,14 @@ button img {
 
 /* sixs section start */
 
-.six-section{
-
-}
+.six-section {}
 
 .six-section {
     border: 1px solid #333333;
     display: flex;
     gap: 122px;
-    
-    margin-bottom: 160px; 
-    border-radius:20px;
+    margin-bottom: 160px;
+    border-radius: 20px;
 }
 
 .six-description {
@@ -698,13 +708,12 @@ button img {
     font-size: 36px;
     line-height: 43.88px;
     letter-spacing: 0%;
-    margin-bottom: 10px;
+    margin: 0;
 }
 
 .sixs-texts {
     display: flex;
     flex-direction: column;
-    margin-bottom: auto;
 }
 
 .six-text {
@@ -717,9 +726,7 @@ button img {
 
 .sixs-cards {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: auto;
+    margin-top: 94px;
     gap: 16px;
 }
 
@@ -727,11 +734,14 @@ button img {
     padding: 20px 15px 15px 15px;
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
     text-align: left;
-    margin-top: auto;
     background-color: #272727;
     border-radius: 16px;
+
+}
+
+.sixs-card div:last-child {
+    margin-top: auto;
 }
 
 .six-card .sixs-img1 {
@@ -745,12 +755,171 @@ button img {
 } */
 
 .sixs-img {
-    margin-top: 30px;
+    margin-top: auto;
     background-image: url(../images/person-image/Ellipse\ 125.png);
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-position: center top;
 }
 
 /* sixs section end */
 
 /* main end */
+
+/* footer start */
+
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-top {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    gap: 65px;
+}
+
+.footer-title {
+    width: 25%;
+}
+
+.footer-top-text {
+    display: flex;
+    width: 75%;
+    gap: 40px;
+    border-bottom: 2px solid rgba(51, 51, 51, 1);
+}
+
+.footer-top-text ul li {
+    list-style: none;
+}
+
+.footer-top-text ul li {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+li p {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19.5px;
+    letter-spacing: 0%;
+
+}
+
+li a {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17.07px;
+    letter-spacing: 0%;
+
+}
+
+li a:hover {
+    text-decoration: underline;
+    transition: all 0.4s ease;
+}
+
+
+.footer-bottom {
+    display: flex;
+    align-items: center
+}
+
+.fotter-bottom-title {
+    width: 25%;
+    margin-right: auto;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+
+}
+
+.footer-bottom-text {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    width: 75%;
+}
+
+.footer-bottom-text ul li {
+    list-style: none;
+}
+
+.fotter-last-img {
+    display: flex;
+    flex-direction: column;
+}
+
+.social-img {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.social-img button {
+    border-radius: 50%
+}
+
+.default{
+    margin-left: auto;
+    padding: 19px;
+    background-color:#299764;
+    border-radius:50%;
+}
+
+/* footer end */
+
+
+.light-mode {
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    button{
+        color: #ffffff;
+        border:none;
+        background-color: rgba(41, 151, 100, 1);
+    }
+    
+    a{
+        color: #000;
+    }
+    .first-title{
+        color: #fff;
+    }
+    .card{
+        background-color: #F5F5F5;
+    }
+    .title-car-sort{
+        color: #555555;
+    }
+    .default-button{
+        color:#000;
+        background-color:#fff;
+        border:1.5px solid rgba(229, 231, 234, 1);
+    }
+    .divider{
+        border: 1px solid rgba(229, 231, 234, 1);
+    }
+    .trid-section-01{
+        background-color:rgba(245, 245, 245, 1);
+    }
+    .thrid-section{
+        background-color:#fff;
+    }
+    .thrid-cards{
+        background-color:#fff;
+    }
+    .thrid_card_title button{
+        background-color:#fff;
+    }
+    .cards-five-item{
+        background-color: rgba(245, 245, 245, 1);  
+    } .sixs-card{
+        background-color:rgba(245, 245, 245, 1);
+    }
+}
